@@ -1,7 +1,9 @@
+
 import './App.css';
+import '@twa-dev/sdk';
 import { TonConnectButton } from '@tonconnect/ui-react';
-import { useTonConnect } from './hooks/useTonConnect';
 import { useNoopContract } from './hooks/useNoopContract';
+import { useTonConnect } from './hooks/useTonConnect';
 
 function App() {
     const { connected } = useTonConnect();
